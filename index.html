@@ -4,10 +4,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="site-header">
+        <div class="container header__container">
+           <div class="header__block">
+              <div class="header__logo-block">
+                <div class="paypal">
+                    <a href="#">
+                        <img class="header__img" src="./img/site-logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a class="header__item-link" href="#">Pricing</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__item-link" href="#">About</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__item-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+              </div>
+              <div class="btn__block">
+                <button class="btn"><p class="btn__p">Schedule a Demo</p></button>
+              </div>
+              <button class="res__btn"></button>
+           </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="building">
+            <div class="container building__container">
+                <div class="building__block">
+                    <div class="building__info">
+                        <h2 class="building__title">Start building with our APIs for absolutely free.</h2>
+                        <form class="building__form" method="post">
+                            <input class="building__email-block" id="email__block" placeholder="Enter email address" type="email">
+                            <button class="btn__2 btn__block">Schedule a Demo</button>
+                        </form>
+                        <p class="building__contact">Have any questions? <a class="building__link" href="#">Contact Us</a></p>
+                    </div>
+                    <div class="building__image">
+                        <img class="image__block" src="./img/iPhone-X-Mockup.svg" alt="iphone">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="container work__container">
+                <div class="work__block">
+                    <div class="work__item">
+                        <h2 class="work__title">Who we work with</h2>
+                        <p class="work__text">Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users. </p>
+                        <button class="work__btn"><p class="btn__text">About Us</p></button>
+                    </div>
+                    <div class="work__images">
+                        <div class="work__img__block">
+                            <img class="display__block bobur" src="./img/tesla.svg" alt="images">
+                        </div>
+                        <div class="work__img__block">
+                            <img class="display__block bobur" src="./img/micro.svg" alt="images">
+                        </div>
+                        <div class="work__img__block">
+                            <img class="display__block" src="./img/hewe.svg" alt="images">
+                        </div>
+                        <div class="work__img__block">
+                            <img class="display__block" src="./img/oracle.svg" alt="images">
+                        </div>
+                        <div class="work__img__block">
+                            <img class="display__block" src="./img/google.svg" alt="images">
+                        </div>
+                        <div class="work__img__block">
+                            <img class="display__block" src="./img/last.svg" alt="images">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="implement">
+            <div class="container implement__container">
+               <div class="implement__block">
+                <div class="img__block">
+                    <img class="image__item" src="./img/screen.svg" alt="image">
+                </div>
+                <div class="implement__info">
+                    <h2 class="implement__title">Easy to implement</h2>
+                    <p class="implement__text">Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.</p>
+                </div>
+               </div>
+            </div>
+        </section>
+
+        <section id="simple">
+            <div class="container simple__container">
+               <div class="simple__block">
+                <div class="simple__info">
+                    <h3 class="simple__title">Simple UI & UX</h3>
+                    <p class="simple__text">Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion. </p>
+                </div>
+                <div class="image__block">
+                    <div class="image__item">
+                        <img width="242px" class="simple__img" src="./img/iPhone-X-Mockup (1).svg" alt="image">
+                    </div>
+                    <div class="image__item">
+                        <img  width="242px" class="simple__img" src="./img/Group 38.svg" alt="image">
+                    </div>
+                </div>
+               </div>
+            </div>
+        </section>
+
+        <section id="list">
+            <div class="container list__container">
+                <ul class="list__bar">
+                    <li class="list__block">
+                        <img class="list__img" src="./img/Group 17.svg" alt="image">
+                        <h3 class="list__title">Personal Finances</h3>
+                        <p class="list__text">Consolidate financial data from multiple sources and categorize transactions up to 2 years of history. Analyze reports to reconcile activities in your account. </p>
+                    </li>
+                    <li class="list__block">
+                        <img class="list__img" src="./img/Group 17.svg" alt="image">
+                        <h3 class="list__title">Banking & Coverage</h3>
+                        <p class="list__text">With our platform, you can speed up account onboarding and support ongoing payments for checking, savings, credit card, and brokerage accounts.</p>
+                    </li>
+                    <li class="list__block">
+                        <img class="list__img" src="./img/Group 17.svg" alt="image">
+                        <h3 class="list__title">Consumer Payments</h3>
+                        <p class="list__text">It’s easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="ready">
+            <div class="container ready__container">
+                <div class="ready__block">
+                    <h2 class="ready__title">Ready to start?</h2>
+                    <form class="building__form" method="post">
+                        <input class="building__email-block" id="email__block" placeholder="Enter email address" type="email">
+                        <button class="btn__2 btn__block">Schedule a Demo</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+       </main>
+
+       <footer class="footer__el">
+        <div class="container footer__container">
+            <div class="footer__block">
+                <div class="footer__img__block">
+                    <a href="#">
+                        <img  src="./img/logodo.svg" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+       </footer>
 </body>
+
 </html>

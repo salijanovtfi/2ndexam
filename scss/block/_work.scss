@@ -1,0 +1,130 @@
+#work{
+    background-color: #1B262F;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-image: url('/img/sectionbg.svg');
+}
+.work__title{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.369231px;
+color: #FBFCFE;
+max-width: 445px;
+margin-bottom: 24px;
+}
+.work__text{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+color: #FBFCFE;
+mix-blend-mode: normal;
+opacity: 0.7;
+max-width: 445px;
+margin-bottom: 32px;
+}
+.work__btn{
+    border: 1px solid #FBFCFE;
+border-radius: 24px;
+background: none;
+padding: 16px 32px;
+
+}
+.btn__text{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+letter-spacing: -0.115385px;
+color: #FBFCFE;
+}
+.work__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.work__images{
+    max-width: 536px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.work__img__block{
+    margin-bottom: 54px;
+}
+
+@media screen and (max-width:710px) {
+    #work{
+        background-repeat: no-repeat;
+        background-image: url('/img/background.svg');
+         background-position: top center;
+    }
+    .work__block{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .work__text{
+        text-align: center;
+    }
+    .work__title{
+        text-align: center;
+    }
+    .work__btn{
+        width: 135px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .work__images{
+        margin-bottom: 23px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #work{
+        
+        background-repeat: no-repeat;
+       background-image: url('/img/background.svg');
+        background-position: top center;
+    }
+    .work__images{
+        max-width: 327px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .work__title{
+        font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.246154px;
+color: #FBFCFE;
+    }
+    .work__text{
+        font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+text-align: center;
+color: #FBFCFE;
+mix-blend-mode: normal;
+opacity: 0.7;
+    }
+    .work__btn{
+        
+        margin: 0 auto;
+    }
+}

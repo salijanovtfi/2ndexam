@@ -23,11 +23,20 @@ h1,h2,h3,h4,h5,h6,p{
 }
 body{
     margin: 0;
+    background-repeat: no-repeat;
+    background-image: url('/img/body-bg.svg');
+    background-position: top right;
+    
 }
 .container{
-    width: 100%;
+    max-width: 1150px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+    
+}
+
+@media screen and (max-width:710px) {
+    
 }

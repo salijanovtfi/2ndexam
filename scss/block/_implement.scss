@@ -1,0 +1,93 @@
+#implement{
+    padding-top: 150px;
+    padding-bottom: 140px;
+}
+.implement__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.implement__info{
+    max-width: 445px;
+}
+.implement__title{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.369231px;
+color: #36536B;
+margin-bottom: 24px;
+}
+.implement__text{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+color: #6C8294;
+}
+@media screen and (max-width:710px) {
+    .implement__block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image__item{
+        display: inline-block;
+    }
+    .img__block{
+        
+        margin: 0 auto;
+    }
+    .implement__title{
+        font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+letter-spacing: -0.369231px;
+
+color: #36536B;
+max-width: 573px;
+    }
+    .implement__text{
+        max-width: 573px;
+        font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+text-align: center;
+color: #6C8294;
+    }
+    .implement__info{
+        margin: 0 auto;
+    }
+    .img__block{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 375px) {
+    .implement__title{
+        font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.276923px;
+
+color: #36536B;
+    }
+    .implement__text{
+        font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+text-align: center;
+color: #6C8294;
+    }
+}

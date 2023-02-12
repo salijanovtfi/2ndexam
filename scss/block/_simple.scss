@@ -1,0 +1,106 @@
+#simple{
+    background-repeat: no-repeat;
+    background-image: url('/img/Bitmap\ Copy\ 2.svg');
+    background-position: right center;
+    padding-top: 100px;
+}
+.simple__info{
+    max-width: 445px;
+}
+.simple__title{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.369231px;
+color: #36536B;
+margin-bottom: 24px;
+}
+.simple__text{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+color: #6C8294;
+margin-bottom: 146px;
+}
+.simple__img{
+    display: inline-block;
+   
+    height: auto;
+    margin: 0;
+}
+.simple__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image__block{
+    display: flex;
+    align-items: center;
+    
+}
+.image__item{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:710px) {
+    #simple{
+        background-image: none;
+    }
+    .simple__block{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .simple__title{
+        font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+letter-spacing: -0.369231px;
+color: #36536B;
+    }
+    .simple__text{
+        font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+text-align: center;
+color: #6C8294;
+margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .simple__img{
+        width: 148px;
+    
+    }
+    .simple__title{
+        font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.276923px;
+
+color: #36536B;
+    }
+    .simple__text{
+        font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+text-align: center;
+color: #6C8294;
+    }
+}

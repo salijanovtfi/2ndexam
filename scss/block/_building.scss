@@ -1,0 +1,141 @@
+#building{
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+.building__form{
+    display: block;
+    box-shadow: none;
+    background-color: inherit;
+    max-width: 445px;
+    margin-bottom: 16px;
+}
+.building__email-block{
+    background: #FBFCFE;
+box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+border-radius: 24px;
+border: none; 
+padding-top: 16px;
+padding-bottom: 16px;
+padding-left: 27px;
+}
+.building__block{
+    display: flex;
+    align-items: center;
+}
+.building__title{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 72px;
+letter-spacing: -0.553846px;
+color: #36536B;
+max-width: 546px;
+margin-bottom: 21px;
+}
+.building__info{
+    margin-right: 208px;
+}
+.building__contact{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #6C8294;
+margin-left: 27px;
+}
+.res__btn{
+    display: none;
+}
+.btn__2{
+    color: #FBFCFE;
+    background: #BA4270;
+border-radius: 24px;
+padding: 16px 24px;
+border: none;
+max-width: 327px;
+cursor: pointer;
+}
+
+
+@media screen and (max-width: 700px) {
+    #building{
+        padding-bottom: 99px;
+    }
+    body{
+       background-repeat: no-repeat;
+       background-image: url('/img/resbg.svg');
+       background-position: top center;
+    }
+    .building__block{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .building__title{
+        max-width: 573px;
+        font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+letter-spacing: -0.369231px;
+color: #36536B;
+display: inline-block;
+    }
+    .building__form{
+        display: flex;
+        margin: 0 auto;
+    }
+    .building__info{
+        margin: 0 auto;
+    }
+    .building__contact{
+        max-width: 225px;
+        margin: 0 auto;
+    }
+    .building__image{
+        margin-bottom: 48px;
+    }
+    .building__form{
+        margin-bottom: 16px;
+    }
+    .building__image{
+        width: 141px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .building__image{
+        width: 133px;
+        height: auto;
+    }
+    .building__title{
+        font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.246154px;
+color: #36536B;
+    }
+    .btn__block{
+        width: 327px;
+        background: #BA4270;
+border-radius: 24px;
+    }
+    .building__form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .building__email-block{
+        width: 327px;
+        margin-bottom: 16px;
+    }
+    #building{
+        padding-bottom: 79px;
+    }
+}
